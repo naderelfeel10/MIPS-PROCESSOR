@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.syr" 

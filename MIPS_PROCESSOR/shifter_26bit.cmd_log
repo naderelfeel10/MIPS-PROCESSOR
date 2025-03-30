@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/shifter_26bit.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/shifter_26bit.syr" 

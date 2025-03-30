@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/dmem.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/dmem.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/MUX_2to1.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/MUX_2to1.syr" 

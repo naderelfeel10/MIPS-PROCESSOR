@@ -1,0 +1,60 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/testbench_isim_beh.exe -prj C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/testbench_beh.prj work.testbench 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/saassdadsads.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/hhhhh.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/dssdfsdfsdf.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/sdsdsdsd.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/sdfshjfgf.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/hhhh.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/ggddd.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/ffff.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/fdsdd.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/fdff.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/eeee.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/dsggfs.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/dfdfdfdfggg.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/dfdfdfdf.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/asss.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/asfdadsf.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/asdfg.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/aaaa.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/Processor.vhd" into library work
+Parsing VHDL file "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/sddd.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package numeric_std
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity program_counter [program_counter_default]
+Compiling architecture behave of entity imem [imem_default]
+Compiling architecture behavioral of entity control [control_default]
+Compiling architecture behavioral of entity MUX_2to1_5bits [mux_2to1_5bits_default]
+Compiling architecture behavioral of entity decoder [decoder_default]
+Compiling architecture behavioral of entity REG22 [reg22_default]
+Compiling architecture behavioral of entity mux1 [mux1_default]
+Compiling architecture behavioral of entity R_F2 [r_f2_default]
+Compiling architecture behavioral of entity ALU_CTRL [alu_ctrl_default]
+Compiling architecture behavioral of entity signext [signext_default]
+Compiling architecture behavioral of entity MUX_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behave of entity dmem [dmem_default]
+Compiling architecture behavioral of entity next_instruction [next_instruction_default]
+Compiling architecture behavioral of entity shifter_26bit [shifter_26bit_default]
+Compiling architecture behavioral of entity jumbInst [jumbinst_default]
+Compiling architecture behavioral of entity shifter [shifter_default]
+Compiling architecture behavioral of entity Adder_32bit [adder_32bit_default]
+Compiling architecture behavioral of entity Processor [processor_default]
+Compiling architecture test of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 46 VHDL Units
+Built simulation executable C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/testbench_isim_beh.exe
+Fuse Memory Usage: 39968 KB
+Fuse CPU Usage: 561 ms

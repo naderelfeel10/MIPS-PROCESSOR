@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/jumbInst.xst" -ofn "C:/Users/ELFEEL/Xilinx/MIPS_PROCESSOR/jumbInst.syr" 
